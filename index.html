@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!---->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online-Store</title>
@@ -8,7 +9,6 @@
       * {
         margin: 0px;
       }
-
       .container {
         background-color: white;
       }
@@ -17,16 +17,33 @@
         justify-content: space-between;
         background-color: orange;
       }
+      .footer {
+        display: flex;
+        justify-content: center ;
+        background-color: orange;
+      }
       .row {
         display: flex;
         justify-content: center;
         background-color: silver;
       }
+      .row1{
+        display: flex;
+        justify-content: center;
+        background-color: bisque;
+       
+
+        
+      }
+      .row2{
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+      }
       .box {
         background-color: white;
         margin: 20px;
-        width: 300px;
-
+        padding: 10px;
       }
       li {
         display:inline-block;
@@ -39,12 +56,6 @@
       a:hover {
         text-decoration: underline;
       }
-img {
-  width: 300px;
-}
-.row .box .product {
-  padding:10px
-}
     </style>
   </head>
   <body>
@@ -57,42 +68,57 @@ img {
             <li><a href="#">Service</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <!-- <li><a href="https://forms.gle/p7zabRFzgHHMccnY8">GitHub A</a></li>
-            <li><a href="https://forms.gle/o9D6EFkbVHzdVKL18">GitHub B</a></li>
-   -->
-
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="box">
           <img src="assests/images/1.png" />
-          <div class="product">
           <h2>Product 1</h2>
           <p>This is the description of the product.</p>
           <h3>Rs 230</h3>
           <button>Add to Cart</button>
         </div>
-        </div>
         <div class="box">
           <img src="assests/images/2.png" />
-          <div class="product">
           <h2>Product 2</h2>
           <p>This is the description of the product.</p>
           <h3>Rs 200</h3>
           <button>Add to Cart</button>
-          </div>
         </div>
         <div class="box">
           <img src="assests/images/3.png" />
-          <div class="product">
           <h2>Product 3</h2>
           <p>This is the description of the product.</p>
           <h3>Rs 375</h3>
           <button>Add to Cart</button>
-          </div>
         </div>
       </div>
-    </div>
+      <div class="row1">
+        <div class="box">
+          <img src="assests/images/4.png" />
+          
+        </div>
+        <div class="box">
+            <h2>Product 4</h2>
+          <p>This is the description of the product. can be chnaged </p>
+          <p>This is the description of the product. can be changed</p>
+          <p>This is the description of the product. can be changed </p>
+        </div>
+        </div>
+        <div class="row2">
+            <div class="box">
+                <h2>Product 5</h2>
+              <p>This is the description of the product. can be chnaged </p>
+              <p>This is the description of the product. can be changed</p>
+              <p>This is the description of the product. can be changed </p>
+            </div>
+            <div class="box">
+                <img src="assests/images/5.png" />    
+              </div>
+            </div>
+            <div class="footer">
+                <div><h3>@copyrights 2024 . all rights reserved</h3></div>
+            </div>
   </body>
 </html>
